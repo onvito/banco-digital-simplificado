@@ -25,7 +25,7 @@ public class UserService {
 		}
 	}
 	
-	public User findById(Long id) throws Exception {
+	public User findUserById(Long id) throws Exception {
 		return this.userRepository.findById(id).orElseThrow(() -> new Exception("Usuário não encontrado"));
 	}
 	
