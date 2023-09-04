@@ -22,9 +22,6 @@ public class TransactionService {
 	private UserService userService;
 	
 	@Autowired
-	private TransactionService transactionService;
-	
-	@Autowired
 	private TransactionRepository transactionRepository;
 	
 	@Autowired
